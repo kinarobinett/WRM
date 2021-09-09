@@ -62,7 +62,7 @@ label[for="payment-type-echeck"], label[for="payment-type-credit-card"] {
 	color: #da5049;
 }
 .onetime li, .monthly li {
-	border: solid 2px #000 !important;
+	border: solid 2px #C3413D !important;
 	color: #000 !important;
 	background: #ffffff;
 	font-weight: normal;
@@ -75,7 +75,7 @@ label[for="payment-type-echeck"], label[for="payment-type-credit-card"] {
 }
 #sideBySide li.active {
 	border: solid 2px #ffffff !important;
-	background: #000 !important;
+	background: #C3413D !important;
 	color: #ffffff !important;
 }
 .panel.highlight {
@@ -88,11 +88,11 @@ label[for="payment-type-echeck"], label[for="payment-type-credit-card"] {
 	color: #ffffff !important;	
 }
 #sideBySide input[type="text"]:-ms-input-placeholder {
-	color: #000  !important;
+	color: #C3413D  !important;
 }
 
 #sideBySide input[type="text"]::-ms-input-placeholder {
-	color: #000  !important;
+	color: #C3413D  !important;
 }
 #sideBySide li.active input[type="text"]::placeholder{
 	color: #ffffff !important;
