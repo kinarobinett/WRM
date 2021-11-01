@@ -1,0 +1,343 @@
+body, form, div {
+	font-family: "Open Sans";
+}
+/**hero-section**/
+#h-block {
+	background: none;
+	position: absolute;
+	top: 0px;
+}
+.h-copy {
+	width: 50%;
+	padding: 50px 0px 0px 100px;
+	font-size: 16px;
+	margin: 0px !important;
+	line-height: 26px !important;
+}
+.h1-copy {
+	font-size: 36px;
+	color: #164b7f;
+	line-height: 36px;
+}
+
+.grp {
+	max-width: 1170px;
+	width: 100%;
+	display: block;
+	margin: 15px auto;
+	
+}
+.grp li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 10px;
+	max-width: fit-content;
+	width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+.sbr {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+.h-copy {
+	font-size: 14px;
+}
+.h1-copy {
+	font-size: 28px;
+}
+}
+@media screen and (max-width: 975px) {
+.h-copy, .h-img {
+	display: inline-block;
+}
+.h-copy {
+	width: 100% !important;
+	background: #164b7f;
+	color: #fff;
+	padding: 20px 20px;
+}
+.h1-copy {
+	color: #fff;
+}
+#h-block {
+	position: inherit;
+}
+}
+@media screen and (max-width: 767px) {
+#h-block {
+	margin: 0px 0px
+}
+}
+/**end hero section**/
+.isolated-form {padding: 0px;}
+body, label, .field-label {
+	font-size: 17px;
+	color: #474747;
+}
+.field-section, .form-section {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.field-with-affix .affix-label {
+	color: #164b7f;
+}
+.option-small-label, label[for="donation-amount-other-input"] {
+	font-size: 20px !Important;
+	font-weight: bold;
+	color: #164b7f;
+}
+.field-section, .form-section {
+	border: none;
+}
+.form-section.additional-info-fields.associated-content  {
+	border-bottom: solid 1px #b9c2c7;
+	padding-bottom: 1em;
+}
+form input[type="text"], form input[type="tel"], form select {
+	height: 34px;
+}
+#donation-amount-other-input {
+	outline: none;
+	background: none;
+	border: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.personal-info-fields h2, .payment-information h2, .form-section-title {
+	color: #164b7f;
+}
+.user-html-content.form-header-content.cf {
+	margin-bottom: 20px;
+}
+#qgiv-form {
+	width: 767px;
+	display: table-cell;
+	border: none;
+	box-shadow: none;
+	padding-top: 0px;
+}
+#qgiv-form .form-content {
+	max-width: 600px;
+}
+.user-html-content.form-footer-content.cf {
+	display: table-cell;
+	width: 375px;
+	border-left: solid 2px #afafaf;
+	vertical-align: top;
+}
+.sbr {
+	text-align: left;
+	padding: 0px 0px 0px 40px;
+}
+.sbr h2 {
+	color: #164b7f;
+	font-size: 20px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 40px;
+	font-size: 28px;
+	text-align: left;
+	border-top: solid 1px #C8C8C8;
+	padding-top: 55px;
+	margin-top: 43px;
+}
+.sbr em {
+	color: #114A80;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 33px;
+}
+.sbr h3 {
+	font-size: 22px;
+	color: #114A80;
+	margin-bottom: 28px;
+}
+.sbr img {
+	display: block;
+	width: inherit;
+	margin: 0px auto 20px;
+}
+.sbr .cou {
+	max-width: 100px;
+}
+.sbr p {
+	color: #606060;
+	font-size: 14px;
+}
+.sbr .lock {
+	padding-right: 15px;
+}
+.form-section.payment-information .padding-bottom-1x, img[src*='/resources/core/images/poweredby-qgiv.png'], #donation-frequency-label, #donation-frequency, .field-label.margin-right-1x, .js-store-new-payment-container, .account-navigation.cf, #address-2, .footer .grid {
+	display: none;
+}
+.grid.tight-grid.custom-amounts.js-custom-amounts .grid-unit.whole {
+	width: auto;
+	clear: none;
+}
+.donation-amount-button.is-active {
+	background: #164b7f;
+	color: #ffffff;
+}
+.ui-border-primary-color {
+	border-color: #164b7f;
+}
+.ui-primary-color {
+	background-color: #ffffff;
+}
+.other-donation-amount-item.is-active {
+	background: #164b7f;
+	color: #ffffff;
+}
+.ui-button {
+	color: #164b7f;
+	background-image: none;
+}
+.submit-button, .submit-button:hover {
+	background: #a73835;
+	padding: 15px 20px;
+	min-width: inherit;
+	font-size: 22px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	font-weight: normal;
+}
+label[for="donation-amount-other"] {
+	background-color: #ffffff;
+	border: solid 2px #164b7f;
+	border-radius: 4px;
+	padding: 3px 10px;
+	margin-left: 15px;
+}
+.is-active .field-with-affix .affix-label, .is-active .option-small-label {
+	color: #ffffff !important
+}
+h2[for="billing_address"] {
+	float: none;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+div[for="emailPhoneOpt"] {
+	float: none;
+	margin-left: 0px;
+}
+.field-secondary-label, .form-section:hover .field-secondary-label {
+	color: #B60800;
+	background: #fff;
+}
+.form-section.payment-information {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.payment-type-options {
+	border: solid 2px #114a81;
+	padding: 0px;
+	width: inherit !important;
+	margin-bottom: 30px !important;
+	margin-top: 15px !important;
+	display: inline-block;
+}
+.payment-type-option {
+	margin-right: 0px;
+	margin-left: 0px;
+	display: inline-block;
+	padding: 0px !important;
+	margin-bottom: 0px !important;
+}
+.payment-information .option-label.active {
+	background: #114a81;
+	color: #ffffff;
+}
+.payment-type-option span {
+	font-weight: normal !important;
+}
+.payment-type-option input[type='radio'] {
+	position: absolute;
+	left: -9999px;
+}
+.payment-option-tab {
+	border-radius: none;
+}
+.ui-payment-option.type-echeck {
+	background: none;
+	overflow: visible;
+	text-indent: 0px;
+	width: 160px;
+	text-align: center;
+}
+label[for="payment-type-echeck"], label[for="payment-type-credit-card"] {
+	border-radius: 0px;
+	color: #114a81;
+}
+label[for="payment-type-echeck"] {
+	margin-right: -1px;
+}
+span[for="credit_card"] {
+	overflow: visible;
+	width: 160px;
+	background: none;
+	text-indent: 0px;
+	text-align: center;
+}
+label[for='payment-card-number'] span.ui-payment-option {
+	margin-left: 5px;
+}
+#dedicated, label[for="dedicated"] {
+	display: inline-block;
+}
+#dedicated {
+	height: 17px;
+	width: 17px;
+}
+.payment-fields-credit-card {
+	max-width: 600px;
+}
+#qgiv-captcha div {
+	width: auto !important; 
+	display: block; 
+	min-width: 304px;
+	max-width: 304px;
+}
+/**mobile tablet size**/
+@media screen and (max-width: 768px) {
+.qgiv-form-container {
+	border-bottom: solid 5px #114A80;
+}
+#qgiv-form, #qgiv-form .form-content, .user-html-content.form-footer-content.cf {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+.sbr {padding: 20px 20px;}
+.sbr img {
+	display: block;
+	margin: 0px auto 20px;
+}
+.sbr h3 {
+	text-align: center;
+}
+.user-html-content.form-footer-content.cf {
+	border-left: none;
+	border-top: solid 2px #afafaf;
+}
+}
+/**phone**/
+@media screen and (max-width: 450px) {
+span[for="credit_card"], .ui-payment-option.type-echeck {
+	width: auto;
+}
+label[for="donation-amount-other"] {
+	margin-left: 0px;
+	width: 165px;
+}
+.sbr img {
+	display: block;
+	margin: 10px auto 0px;
+}
+#qgiv-form-submit {
+	max-width: 235px;	
+}
+}
